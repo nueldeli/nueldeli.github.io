@@ -35,7 +35,7 @@
 
 	.custom-div-small {
 		margin: auto;
-		width: 40%;
+		width: 35%;
 	}
 
 	.jumbotron {
@@ -56,12 +56,31 @@
 
 body {
 	/*font-family: 'Quattrocento', serif;*/
-	font-family: 'Work Sans', sans-serif;
-	font-size: 16px;
+	/*font-family: 'Work Sans', sans-serif;*/
+	/*font-size: 16px;*/
+	font-family: "Merriweather", serif;
+	font-weight: 400; /* normal weight for reading */
+	line-height: 1.7; /* improves readability */
+	font-size: 18px;  /* 16px base size */
+	color: #222;      /* softer than pure black */
+	background-color: #fff;
+	margin: 0 auto;        
+  	padding: 1rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 600; /* slightly bold for hierarchy */
+	letter-spacing: 0.5px; /* optional: adds a book-title feel */
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+	color: #111;font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 600; /* slightly bold for hierarchy */
+	letter-spacing: 0.5px; /* optional: adds a book-title feel */
+	margin-top: 1.2em;
+	margin-bottom: 0.5em;
+	color: #111;
 }
 
 li {
@@ -69,7 +88,7 @@ li {
 }
 
 nav li {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'IBM Plex Sans', sans-serif;
 	font-size: 20px;
 }
 
@@ -96,7 +115,7 @@ nav a:hover {
 }
 
 .navbar-logo-img {
-	width: 50px;
+	width: 60px;
 }
 
 .jumbotron {
